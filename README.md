@@ -1,4 +1,4 @@
-Sampling Techniques for Machine Learning Models
+##Sampling Techniques for Machine Learning Models
 
 This repository contains a comprehensive Google Colab Notebook that demonstrates the application of various sampling techniques to address class imbalance in datasets. The notebook evaluates the impact of these techniques on multiple machine learning models to identify best practices for handling imbalanced data effectively.
 
@@ -14,7 +14,7 @@ The primary goal is to explore and compare the effects of different sampling tec
 	5.	Cluster Sampling: Randomly selects clusters (groups) to serve as representative samples.
 	6.	Bootstrap Sampling: Draws samples with replacement to generate diverse training datasets.
 
-    🤖 Machine Learning Models Evaluated
+##Machine Learning Models Evaluated
 
 The following models were tested with each sampling technique to assess their performance and robustness:
 	•	Logistic Regression
@@ -23,7 +23,7 @@ The following models were tested with each sampling technique to assess their pe
 	•	Support Vector Machine (SVM)
 	•	K-Nearest Neighbors (KNN)
 
- 📊 Results and Observations
+ ##Results and Observations
 	•	Oversampling: Improved the performance on minority classes, especially for highly imbalanced datasets.
 	•	Stratified Sampling: Excelled at maintaining class proportions and delivering consistent results.
 	•	Random Forest & Decision Tree: Demonstrated high accuracy and resilience across most techniques.
